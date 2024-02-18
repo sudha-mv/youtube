@@ -1,0 +1,22 @@
+.categories_links a{
+    align-items: center;
+    margin-top: 500px;
+    display: flex;
+}
+a{
+    background-color: rgb(236, 236, 236);
+    padding: 8px 10px;
+    border-radius: 10px;
+    color: black;
+    margin-left: 55px;
+    text-decoration: none;
+
+    
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+.categories{
+    margin-top: 30px;
+}

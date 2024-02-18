@@ -1,0 +1,38 @@
+.navbar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.logo img{
+    width: 150px;
+   
+}
+.search{
+    padding-left: 15%;
+}
+.search input{
+    display: flex;
+    border: 1px solid rgb(100 , 216,255);
+    height: 40px;
+    width: 500px;
+    font-size: 18px;
+    padding-left: 25px;
+    border-radius: 50px;
+    outline: none;
+    margin-right: 400px;
+}
+.search input:focus{
+    border-color: rgb(0 , 191,255);
+}
+.options button{
+    border-color: rgb(175, 247, 255);
+    border-radius: 50px;
+    background-color: white;
+    color: blue;
+    padding: 10px 20px;
+    margin: 4px;
+}
+.options button:hover{
+     background-color: blue;
+     color: white;
+}
